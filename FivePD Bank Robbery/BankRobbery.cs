@@ -12,7 +12,7 @@ using CitizenFX.Core.Native;
 
 namespace BankRobberyCallout
 {
-    [CalloutProperties("Bank Robbery", "GGGDunlix", "0.2.2")]
+    [CalloutProperties("Bank Robbery", "GGGDunlix", "0.3.0")]
     public class BankRobbery : Callout
     {
         Ped driver, suspect2, suspect3;
