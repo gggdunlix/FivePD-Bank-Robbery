@@ -94,7 +94,7 @@ namespace BankRobberyCallout
 
             driver.Task.EnterVehicle(getaway, VehicleSeat.Driver);
             suspect2.Task.EnterVehicle(getaway, VehicleSeat.Any);
-            API.Wait(2000);
+            API.Wait(2000); //probably should use BaseScript.Delay(2000), that might be the main problem!
             suspect3.Task.EnterVehicle(getaway, VehicleSeat.Any);
             var sus3incar = suspect3.CurrentVehicle;
             Tick += DriveAway;
